@@ -1,0 +1,36 @@
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/build/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# Java compilado
+*.class
+
+# Maven
+**/target/
+
+# Gradle
+**/.gradle/
+
+# IntelliJ IDEA
+**/.idea/
+*.iml
+**/out/
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# VS Code
+**/.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
