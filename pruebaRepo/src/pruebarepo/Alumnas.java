@@ -4,30 +4,31 @@ package pruebarepo;
 
 public class Alumnas {
     
-    protected String Nombre;
-    protected String Apellido;
+    protected String nombre;
+    protected String apellido;
     protected int edad;
+    
 
     public Alumnas(String Nombre, String Apellido, int edad) {
-        this.Nombre = Nombre;
-        this.Apellido = Apellido;
+        this.nombre = Nombre;
+        this.apellido = Apellido;
         this.edad = edad;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+        this.nombre = Nombre;
     }
 
     public String getApellido() {
-        return Apellido;
+        return apellido;
     }
 
     public void setApellido(String Apellido) {
-        this.Apellido = Apellido;
+        this.apellido = Apellido;
     }
 
     public int getEdad() {
@@ -40,11 +41,11 @@ public class Alumnas {
     
     
     public void mostrarNombre (){
-        System.out.println(" su nombre es  " + Nombre);
+        System.out.println(" su nombre es  " + nombre);
     }
     
     public void mostrarApellido (){
-        System.out.println(" su apellido es  " + Apellido);
+        System.out.println(" su apellido es  " + apellido);
     }
     
     public void mostrarEdad (){
