@@ -13,7 +13,7 @@ public class PruebaRepo {
     public static void main(String[] args) {
         Alumnas alumna = new Alumnas ("Valentina", "Toso", 33);
         Alumnas alumna2 = new Alumnas ("Melisa", "Rodriguez", 18);
-        
+        Alumnas alumna3 = new Alumnas ("Aimé", "Olivares", 29);
         
         System.out.println(" estos datos son de la alumna 1");
         alumna.mostrarNombre();
