@@ -28,6 +28,10 @@ public class PruebaRepo {
         alumna2.mostrarApellido();
         alumna2.mostrarEdad();
         
+        System.out.println("Estos datos son de la alumna 3");
+        alumna3.mostrarNombre();
+        alumna3.mostrarApellido();
+        alumna3.mostrarEdad();
     }
     
 }
